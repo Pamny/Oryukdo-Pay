@@ -13,9 +13,6 @@ $(document).ready(function () {
         $(this).toggleClass("active");
     });
 
-    $('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function () {
-        $(this).toggleClass('open');
-    });
 
     $("nav .gnb > li > a").on("click", function (e) {
         if (winWidth < 1024) {
